@@ -12,6 +12,20 @@
     position: relative;
 }
 
+@media (max-width:576px){
+    .header a{
+        float: none;
+        text-align: left;
+    }
+
+}
+
+/* @media (max-width: 576px) {
+    button[type="submit"] {
+        width: 100%; 
+    }
+} */
+
 .page-menu{
  float: left;   
 }
@@ -62,6 +76,14 @@
     transform: scale(1.2);
 }
 
+img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: none;
+
+}
+
  .parentdiv{
     background-image: url(travel.jpg);
     width:100%;
@@ -71,7 +93,9 @@
     transition: all 1.1s;
     border-radius: 2%;
     margin:2%;
-    
+}
+.parentdiv:hover{
+    transform:scale(1.1);
 }
 .row:hover.effectImg{
     transform: scale(1.2);
